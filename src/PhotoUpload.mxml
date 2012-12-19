@@ -63,7 +63,7 @@
 				defaultPhotoURL = FlexGlobals.topLevelApplication.parameters.defaultPhotoURL;
 				initMenu();
 				
-				if(uploadURL==null || photoURL==null) {
+				if(uploadURL==null) {
 					var msg:SystemMsg;
 					msg = SystemMsg(PopUpManager.createPopUp(this,SystemMsg, true));
 					msg.message.text = "温馨提示：头像编辑器配置错误，请与管理员联系！";
